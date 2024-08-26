@@ -1,0 +1,27 @@
+#scratchpad {
+  height: 100%;
+  display: grid;
+  grid-template-rows: min-content auto min-content min-content; }
+  #scratchpad #scratchpadText {
+    padding: 10px;
+    text-align: center;
+    overflow-y: auto; }
+    #scratchpad #scratchpadText p,
+    #scratchpad #scratchpadText span {
+      width: min-content;
+      display: inline-block;
+      padding: 0px 2px; }
+    #scratchpad #scratchpadText span {
+      position: relative;
+      background-color: #ffd900;
+      white-space: nowrap; }
+  #scratchpad #scratchpadDivider {
+    width: 95%; }
+  #scratchpad #annotationFeedback {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+    #scratchpad #annotationFeedback.hidden {
+      display: none; }

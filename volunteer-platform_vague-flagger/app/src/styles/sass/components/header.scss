@@ -1,0 +1,59 @@
+.header {
+	div:first-of-type {
+		padding: 40px 15px 20px 15px;
+
+		display: grid;
+		grid-template-columns: 40px auto;
+		grid-template-rows: auto auto;
+		align-items: center;
+
+		column-gap: 20px;
+
+		button {
+			width: 50px;
+
+			grid-row: 1 / row2-end;
+
+			svg {
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		h1,
+		h3 {
+			grid-column: 2;
+		}
+	}
+}
+
+.scratchpad-header {
+	div:first-of-type {
+		display: grid;
+		grid-template-columns: 40px calc(100vw - 80px);
+		grid-template-rows: auto auto;
+
+		padding-top: 10px;
+
+		align-items: center;
+
+		height: 60px;
+
+		button {
+			margin-left: 10px;
+			height: 40px;
+			width: 40px;
+		}
+
+		h2 {
+			text-align: center;
+		}
+	}
+}
+
+.header,
+.scratchpad-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

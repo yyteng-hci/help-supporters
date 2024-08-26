@@ -1,0 +1,34 @@
+.information-page-wrapper {
+	display: grid;
+	height: 100%;
+	grid-template-rows: 126px auto 120px;
+
+	.form-control {
+		overflow-y: auto;
+		padding-bottom: 10px;
+
+		.input-wrapper p {
+			padding-bottom: 10px;
+		}
+
+		> div {
+			margin: auto;
+			margin-top: 20px;
+
+			width: 90%;
+
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+
+			.dropdown-wrapper {
+				display: grid;
+				gap: 10px;
+
+				> div {
+					width: min-content;
+				}
+			}
+		}
+	}
+}

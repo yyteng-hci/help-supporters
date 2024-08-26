@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+// Pages
+@import url('./pages/signup');
+@import url('./pages/information');
+@import url('./pages/vipdashboard');
+@import url('./pages/helperwaitscreen');
+@import url('./pages/additionalinfo');
+
+// Pages - Admin
+@import url('./pages/textinsert');
+@import url('./pages/dataview');
+
+// Pages - Scratchpad
+@import url('./pages/scratchpadstartscreen');
+@import url('./pages/gettingstarted');
+@import url('./pages/scratchpad');
+@import url('./pages/notes');
+
+// Components
+@import url('./components/header');
+@import url('./components/buttonStyles');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
+	height: 100%;
+}
+
+body {
+	font-family: 'Mulish', sans-serif;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	padding: 0;
+}

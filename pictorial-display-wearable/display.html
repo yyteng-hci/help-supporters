@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display</title>
+
+    <style>
+      .center {
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+      }
+    </style>
+
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+
+  <body>
+    <div class="center">
+      <img id="image" src="" width="1000" />
+    </div>
+  </body>
+
+  <script>
+    let socket = io();
+    socket.emit("display connected");
+
+    let image = document.getElementById("image");
+
+    socket.on("display image url", function (url) {
+      image.src = url;
+    });
+  </script>
+</html>

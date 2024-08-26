@@ -1,0 +1,29 @@
+#waitScreen,
+#assistanceRequestLoadingPage,
+#connectionWaitPage {
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+	padding: 0 30px;
+
+	span {
+		margin-top: 30px;
+	}
+}
+
+#waitScreen #vipAcceptPrompt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+#assistanceRequestLoadingPage,
+#connectionWaitPage {
+	height: 60%;
+}

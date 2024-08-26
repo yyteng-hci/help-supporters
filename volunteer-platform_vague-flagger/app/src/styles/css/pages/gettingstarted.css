@@ -1,0 +1,22 @@
+#gettingStartedPageWrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: min-content auto min-content; }
+  #gettingStartedPageWrapper #bestPracticeNotes {
+    padding: 30px 20px; }
+    #gettingStartedPageWrapper #bestPracticeNotes ul {
+      margin: 1em; }
+    #gettingStartedPageWrapper #bestPracticeNotes li {
+      margin-left: 1em; }
+      #gettingStartedPageWrapper #bestPracticeNotes li span {
+        font-weight: 700; }
+  #gettingStartedPageWrapper #bestPracticeNotesSightedGuidance {
+    text-align: center; }
+    #gettingStartedPageWrapper #bestPracticeNotesSightedGuidance p {
+      margin-top: 40px; }
+  #gettingStartedPageWrapper #buttonContainer {
+    height: 60px;
+    display: flex;
+    justify-content: center; }
+    #gettingStartedPageWrapper #buttonContainer button {
+      height: min-content; }

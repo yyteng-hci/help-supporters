@@ -1,0 +1,41 @@
+#gettingStartedPageWrapper {
+	height: 100vh;
+
+	display: grid;
+	grid-template-rows: min-content auto min-content;
+
+	#bestPracticeNotes {
+		padding: 30px 20px;
+
+		ul {
+			margin: 1em;
+		}
+
+		li {
+			margin-left: 1em;
+
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+
+	#bestPracticeNotesSightedGuidance {
+		text-align: center;
+
+		p {
+			margin-top: 40px;
+		}
+	}
+
+	#buttonContainer {
+		height: 60px;
+
+		display: flex;
+		justify-content: center;
+
+		button {
+			height: min-content;
+		}
+	}
+}

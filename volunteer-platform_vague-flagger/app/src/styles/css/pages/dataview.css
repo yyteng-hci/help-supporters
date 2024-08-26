@@ -1,0 +1,22 @@
+#dataViewPage {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 100px;
+  text-align: center; }
+  #dataViewPage #logsWrapper {
+    margin-top: 20px; }
+    #dataViewPage #logsWrapper #logListWrapper {
+      margin-top: 20px;
+      height: 100%;
+      overflow-y: auto; }
+      #dataViewPage #logsWrapper #logListWrapper div:nth-child(even) {
+        background-color: #ebebeb; }
+      #dataViewPage #logsWrapper #logListWrapper div:nth-child(odd) {
+        background-color: #d8d8d8; }
+      #dataViewPage #logsWrapper #logListWrapper .log {
+        padding: 10px; }
+  #dataViewPage #saveButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; }

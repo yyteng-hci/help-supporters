@@ -1,0 +1,13 @@
+#signupWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+  padding: 0 15px; }
+  #signupWrapper div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; }
